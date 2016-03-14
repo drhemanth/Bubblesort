@@ -4,13 +4,13 @@
 public class Bubblesort {
     public static void main(String[ ] args)
     {
-        String[ ] names = {"Hemanth", "Deep", "Narshima", "George"}; //list of strings
-        Bubble (names); // function call here
-        for ( int k = 0;  k < 4;  k++ )   //function to print
-            System.out.println( names [ k ] );
+        //String[ ] names = {"Hemanth", "Deep", "Narshima", "George"}; //list of strings
+        //Bubble (names); // function call here
+        //for ( int k = 0;  k < 4;  k++ )   //function to print
+          //  System.out.println( names [ k ] );
     }
 
-    public static void Bubble( String  x [ ] )
+    public static int Bubble( String  x [ ] )
     {
         int j;
         boolean flag = true;  // will determine when the sort is finished
@@ -30,6 +30,7 @@ public class Bubblesort {
                 }
             }
         }
+         return 1;
     }
 
 }
